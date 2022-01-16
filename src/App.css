@@ -1,7 +1,31 @@
 .App {
   text-align: center;
 }
-
+.row {
+  width: 300px;
+  margin-left: 40%;
+  border-width: 1px 1px 1px 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-start-end-radius: 2px;
+}
+.form {
+  margin-top: 10px;
+  align-self: center;
+  align-content: center;
+  width: 300px;
+  margin-left: 40%;
+  border-width: 1px 1px 1px 1px;
+  border-color: black;
+  border-style: solid;
+ 
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
